@@ -50,6 +50,8 @@ username.sendKeys("abctest@gmail.com");
         WebElement password = s.driver.findElement(By.id("password-sign-in-blackColor"));
         password.sendKeys("password");
         password.sendKeys(Keys.ENTER);
+        //Assert.assertTrue(pageoutput.contains("Boris Veis"));
+
 
 
 
