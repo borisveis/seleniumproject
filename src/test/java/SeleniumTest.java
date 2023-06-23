@@ -50,17 +50,13 @@ username.sendKeys("abctest@gmail.com");
         WebElement password = s.driver.findElement(By.id("password-sign-in-blackColor"));
         password.sendKeys("password");
         password.sendKeys(Keys.ENTER);
-        //Assert.assertTrue(pageoutput.contains("Boris Veis"));
-
-
-
-
+        //Assert.assertTrue(pageoutput.contains("he credentials you entered do not match our records. Please try again."));
     }
 
-//    @AfterClass
-//    public void teardown() {
-//        s.quit();
-//    }
+    @AfterClass
+    public void teardown() {
+        s.quit();
+    }
 }
 
 
